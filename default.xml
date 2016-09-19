@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote  name="origin"
+           fetch="https://github.com/Roufa/"
+           review="https://myproject-review.mycompany.com/" />
+<default revision="develop"
+   remote="origin" />
+
+  <project path="Application/UI" name="UI"/>
+  <project path="Application/Core" name="Core"/>
+  <project path="Tools" name="Tools"/>
+
+</manifest>
+
